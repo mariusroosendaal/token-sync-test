@@ -88,59 +88,59 @@
             },
             "space-4": {
                 "sm": 16,
-                "md": 24,
+                "md": 16,
                 "lg": 24,
-                "xl": 32,
-                "xxl": 40
+                "xl": 24,
+                "xxl": 32
             },
             "space-5": {
                 "sm": 24,
                 "md": 32,
                 "lg": 40,
-                "xl": 64,
-                "xxl": 96
+                "xl": 48,
+                "xxl": 80
             },
             "space-6": {
                 "sm": 32,
                 "md": 48,
                 "lg": 64,
                 "xl": 96,
-                "xxl": 192
+                "xxl": 160
             },
             "space-7": {
                 "sm": 40,
                 "md": 64,
                 "lg": 80,
                 "xl": 128,
-                "xxl": 256
+                "xxl": 192
             },
             "space-8": {
                 "sm": 48,
-                "md": 80,
-                "lg": 96,
-                "xl": 160,
-                "xxl": 256
+                "md": 64,
+                "lg": 80,
+                "xl": 128,
+                "xxl": 192
             },
             "space-9": {
                 "sm": 64,
                 "md": 96,
                 "lg": 128,
                 "xl": 192,
-                "xxl": 384
+                "xxl": 320
             },
             "space-10": {
                 "sm": 80,
                 "md": 128,
                 "lg": 160,
                 "xl": 256,
-                "xxl": 512
+                "xxl": 384
             },
             "space-11": {
                 "sm": 96,
-                "md": 160,
-                "lg": 192,
-                "xl": 320,
-                "xxl": 512
+                "md": 128,
+                "lg": 160,
+                "xl": 256,
+                "xxl": 384
             },
             "space-12": {
                 "sm": 128,
@@ -172,8 +172,8 @@
             "gray-200": "#cccccc",
             "gray-300": "#acacac",
             "gray-400": "#8e8e8e",
-            "gray-500": "#787878",
-            "gray-600": "#5a5a5a",
+            "gray-500": "#757575",
+            "gray-600": "#585858",
             "gray-700": "#3e3e3e",
             "gray-800": "#282828",
             "gray-900": "#1d1d1d",
@@ -207,8 +207,8 @@
             "red-200": "#ffbbbf",
             "red-300": "#fa8d91",
             "red-400": "#f2585d",
-            "red-500": "#db2029",
-            "red-600": "#ac0017",
+            "red-500": "#d71a26",
+            "red-600": "#a70016",
             "red-700": "#7f0611",
             "red-800": "#530c0d",
             "red-900": "#380e10",
@@ -217,8 +217,8 @@
             "orange-200": "#f7c19d",
             "orange-300": "#ee9554",
             "orange-400": "#da7000",
-            "orange-500": "#b35e0c",
-            "orange-600": "#894605",
+            "orange-500": "#b05b05",
+            "orange-600": "#864300",
             "orange-700": "#643000",
             "orange-800": "#411d00",
             "orange-900": "#301400",
@@ -228,8 +228,8 @@
             "green-200": "#93dd9d",
             "green-300": "#56c165",
             "green-400": "#34a045",
-            "green-500": "#318e3e",
-            "green-600": "#226b2d",
+            "green-500": "#2d8b3b",
+            "green-600": "#1f682a",
             "green-700": "#10481a",
             "green-800": "#0b2e12",
             "green-900": "#0f2110",
@@ -238,8 +238,8 @@
             "blue-200": "#a8d0ff",
             "blue-300": "#72aefc",
             "blue-400": "#448df4",
-            "blue-500": "#2070ec",
-            "blue-600": "#0a52be",
+            "blue-500": "#1c6de8",
+            "blue-600": "#054fbb",
             "blue-700": "#013a8a",
             "blue-800": "#002559",
             "blue-900": "#031d39",
@@ -247,7 +247,18 @@
             "blue-950": "#0a1828",
             "green-950": "#111811",
             "gray-950": "#171717",
-            "transparent": "#ffffff00"
+            "transparent": "#ffffff00",
+            "coolblue-50": "#f1f5fc",
+            "coolblue-100": "#dae4fb",
+            "coolblue-200": "#bccdf0",
+            "coolblue-300": "#96aee0",
+            "coolblue-400": "#6e8dcf",
+            "coolblue-500": "#5072bc",
+            "coolblue-600": "#375496",
+            "coolblue-700": "#2a3d66",
+            "coolblue-800": "#1c273f",
+            "coolblue-900": "#171d2a",
+            "coolblue-950": "#111724"
         },
         "background": {
             "default": "white-90",
@@ -312,17 +323,14 @@
                     "letter-spacing": "0"
                 },
                 "md": {
-                    "font-size": "42px"
-                },
-                "lg": {
-                    "font-size": "48px"
-                },
-                "xl": {
-                    "font-size": "60px",
+                    "font-size": "42px",
                     "line-height": "1.05"
                 },
+                "xl": {
+                    "font-size": "48px"
+                },
                 "xxl": {
-                    "font-size": "68px",
+                    "font-size": "54px",
                     "line-height": "1"
                 }
             },
@@ -331,21 +339,14 @@
                     "font-family": "var(--sans)",
                     "font-weight": "500",
                     "font-size": "32px",
-                    "line-height": "1.15",
+                    "line-height": "1.1",
                     "letter-spacing": "0"
                 },
-                "md": {
-                    "font-size": "36px",
-                    "line-height": "1.1"
-                },
                 "lg": {
-                    "font-size": "42px"
+                    "font-size": "36px"
                 },
                 "xl": {
-                    "font-size": "48px"
-                },
-                "xxl": {
-                    "font-size": "54px",
+                    "font-size": "42px",
                     "line-height": "1.05"
                 }
             },
@@ -357,15 +358,12 @@
                     "line-height": "1.15",
                     "letter-spacing": "0"
                 },
-                "md": {
-                    "font-size": "32px"
-                },
-                "xl": {
-                    "font-size": "36px",
+                "lg": {
+                    "font-size": "32px",
                     "line-height": "1.1"
                 },
                 "xxl": {
-                    "font-size": "42px"
+                    "font-size": "36px"
                 }
             },
             "heading-4": {
@@ -376,11 +374,8 @@
                     "line-height": "1.15",
                     "letter-spacing": "0"
                 },
-                "lg": {
+                "xl": {
                     "font-size": "28px"
-                },
-                "xxl": {
-                    "font-size": "32px"
                 }
             },
             "heading-5": {
@@ -394,9 +389,6 @@
                 "lg": {
                     "font-size": "24px",
                     "line-height": "1.15"
-                },
-                "xxl": {
-                    "font-size": "28px"
                 }
             },
             "heading-6": {
@@ -407,12 +399,8 @@
                     "line-height": "1.2",
                     "letter-spacing": "0"
                 },
-                "md": {
+                "lg": {
                     "font-size": "20px"
-                },
-                "xxl": {
-                    "font-size": "24px",
-                    "line-height": "1.15"
                 }
             },
             "heading-7": {
@@ -438,12 +426,8 @@
                     "line-height": "1.5",
                     "letter-spacing": "0"
                 },
-                "lg": {
+                "xl": {
                     "font-size": "20px"
-                },
-                "xxl": {
-                    "font-size": "24px",
-                    "line-height": "1.45"
                 }
             },
             "body-1": {
@@ -524,17 +508,11 @@
                     "line-height": "1.3",
                     "letter-spacing": "0"
                 },
-                "md": {
+                "lg": {
                     "font-size": "28px"
                 },
-                "lg": {
-                    "font-size": "32px"
-                },
                 "xl": {
-                    "font-size": "36px"
-                },
-                "xxl": {
-                    "font-size": "42px"
+                    "font-size": "32px"
                 }
             },
             "numeral": {
@@ -545,11 +523,8 @@
                     "line-height": "1",
                     "letter-spacing": "0"
                 },
-                "lg": {
+                "xl": {
                     "font-size": "48px"
-                },
-                "xxl": {
-                    "font-size": "54px"
                 }
             },
             "helper": {
