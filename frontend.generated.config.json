@@ -64,7 +64,106 @@
         "tokens": {
             "scaler": 4
         },
-        "groups": {}
+        "groups": {
+            "space-1": {
+                "sm": 4,
+                "md": 4,
+                "lg": 4,
+                "xl": 4,
+                "xxl": 4
+            },
+            "space-2": {
+                "sm": 8,
+                "md": 8,
+                "lg": 8,
+                "xl": 8,
+                "xxl": 8
+            },
+            "space-3": {
+                "sm": 12,
+                "md": 12,
+                "lg": 12,
+                "xl": 12,
+                "xxl": 12
+            },
+            "space-4": {
+                "sm": 16,
+                "md": 16,
+                "lg": 16,
+                "xl": 16,
+                "xxl": 16
+            },
+            "space-5": {
+                "sm": 24,
+                "md": 24,
+                "lg": 32,
+                "xl": 32,
+                "xxl": 40
+            },
+            "space-6": {
+                "sm": 32,
+                "md": 40,
+                "lg": 40,
+                "xl": 48,
+                "xxl": 64
+            },
+            "space-7": {
+                "sm": 40,
+                "md": 48,
+                "lg": 48,
+                "xl": 64,
+                "xxl": 80
+            },
+            "space-8": {
+                "sm": 48,
+                "md": 64,
+                "lg": 64,
+                "xl": 80,
+                "xxl": 96
+            },
+            "space-9": {
+                "sm": 64,
+                "md": 80,
+                "lg": 80,
+                "xl": 96,
+                "xxl": 128
+            },
+            "space-10": {
+                "sm": 80,
+                "md": 96,
+                "lg": 96,
+                "xl": 128,
+                "xxl": 160
+            },
+            "space-11": {
+                "sm": 96,
+                "md": 128,
+                "lg": 128,
+                "xl": 160,
+                "xxl": 192
+            },
+            "space-12": {
+                "sm": 128,
+                "md": 160,
+                "lg": 160,
+                "xl": 192,
+                "xxl": 256
+            },
+            "space-13": {
+                "sm": 160,
+                "md": 192,
+                "lg": 192,
+                "xl": 256,
+                "xxl": 320
+            },
+            "space-14": {
+                "sm": 192,
+                "md": 256,
+                "lg": 256,
+                "xl": 320,
+                "xxl": 384
+            }
+        }
     },
     "color": {
         "tokens": {
@@ -151,9 +250,9 @@
             "transparent": "#ffffff00"
         },
         "background": {
-            "default": "white-100",
-            "secondary": "gray-50",
-            "inverse": "gray-950",
+            "default": "white-90",
+            "secondary": "gray-100",
+            "inverse": "gray-900",
             "overlay": "black-8",
             "overlay-strong": "black-56",
             "info": "blue-50",
